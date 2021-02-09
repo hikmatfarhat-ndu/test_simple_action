@@ -1,3 +1,3 @@
 # test_simple_action
-just to test the action in simple_action repo
+just to test the action in simple_action repository
 on master
