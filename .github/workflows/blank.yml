@@ -9,7 +9,7 @@ jobs:
       id: hello
       uses: hikmatfarhat-ndu/simple_action@master
       env: 
-        GITHUB_TOKEN: ${{serets.GITHUB_TOKEN}}  
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}  
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         who-to-greet: 'Mona the Octocat'
