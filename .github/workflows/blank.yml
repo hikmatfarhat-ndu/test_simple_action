@@ -7,8 +7,9 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: hikmatfarhat-ndu/simple_action@main
+      uses: hikmatfarhat-ndu/simple_action@master
       with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
     - name: Get the output time
